@@ -1,0 +1,10 @@
+Connecting snowflake to mssql server using ODBC driver:
+
+1. download the odbc driver for snoawflake.
+2. Set up. After that go to ODBC data source administrator.
+3. In that go to system DSN. Then  add your snowflake one.
+4. In server you need to give your url but it wont go off easy 
+	-> go to accounts section three dot -> manage URLS -> only give from account name to .com ex fokmyec-cr61259.snowflakecomputing.com
+5. After that test.
+6. Open ms sql Go to linked servers -> providers -> MSDASQL -> Need to switch 'Level zero queries','Nested one' and 'supports like operator'
+7. create nwe linked server. give info 

@@ -1,0 +1,7 @@
+AttributeError: partially initialized module 'numpy' has no attribute 'count' (most likely due to a circular import)
+
+-> this occurs when you have a file called numpy.py in your working directory?
+If yes, rename it.
+
+For your task in https://python-forum.io/Thread-Question-1-Count-symbols
+you do not need numpy.

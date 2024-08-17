@@ -1,0 +1,43 @@
+set and dictionary in python
+
+Set :-
+
+1. Set is an unordered collection of items.
+2. There can be no duplicates
+3. If you want to maintain order in set you must use orderedSet.
+4. How to create a set:-          
+s = set()   #init 
+s = {1,2,3}  # Populate
+
+dictionary :-
+
+1. Key value pairs. say key will be 'madad' then its value pair will be 'help'. 
+2. O(1) as it runs in constant speed.
+3. They are mutable, meaning that you can change, add, and remove key-value pairs.
+4. Creating a dictionary.
+d = {} #this will create an empty dictionary 
+d= { 'Name': 'Karan', 
+     'Age': 23}
+
+# Alternative way using the dict() function
+my_dict = dict(name='Alice', age=25, city='New York')
+
+# Creating a dictionary
+my_dict = {'name': 'Alice', 'age': 25, 'city': 'New York'}
+
+# keys() method
+print(my_dict.keys())  # Output: dict_keys(['name', 'age', 'city'])
+
+# values() method
+print(my_dict.values())  # Output: dict_values(['Alice', 25, 'New York'])
+
+# items() method
+print(my_dict.items())  # Output: dict_items([('name', 'Alice'), ('age', 25), ('city', 'New York')])
+
+# update() method to update with another dictionary
+my_dict.update({'age': 26, 'country': 'USA'})
+print(my_dict)  # Output: {'name': 'Alice', 'age': 26, 'city': 'New York', 'country': 'USA'}
+
+# clear() method to remove all items
+my_dict.clear()
+print(my_dict)  # Output: {}
